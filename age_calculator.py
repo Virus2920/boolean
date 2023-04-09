@@ -4,10 +4,10 @@ def is_student_adult():
     current_year = 2023  
     age = current_year - date_of_birth
     if age >= 18:
-       print(age,"years old. True") 
+       print (bool(age,"years old.")) 
         
     else:
-        print(age,"years old. False" )
+        print(bool(18 < age))
         
 
 
